@@ -1,0 +1,16 @@
+$ /lRRts 60 42 30 1
+
+LABS 60 (opt=218,8.26), seed=42, maxExecTime=30.0(secs), threads=1
+GA( 0 - 42) iter:            0   946  1.90  0.0(secs) 1.000000e+02(cntProbe) 4.608295e+05(speed) 0(targetReached) 0(isCensored)
+GA( 0 - 42) iter:            1   382  4.71  0.0(secs) 5.682000e+03(cntProbe) 7.238217e+06(speed) 0(targetReached) 0(isCensored)
+GA( 0 - 42) iter:           33   354  5.08  0.0(secs) 1.215140e+05(cntProbe) 9.371741e+06(speed) 0(targetReached) 0(isCensored)
+GA( 0 - 42) iter:           43   318  5.66  0.0(secs) 1.569240e+05(cntProbe) 9.414687e+06(speed) 0(targetReached) 0(isCensored)
+GA( 0 - 42) iter:          385   310  5.81  0.1(secs) 1.379886e+06(cntProbe) 9.627134e+06(speed) 0(targetReached) 0(isCensored)
+GA( 0 - 42) iter:          404   302  5.96  0.2(secs) 1.446265e+06(cntProbe) 9.629249e+06(speed) 0(targetReached) 0(isCensored)
+GA( 0 - 42) iter:          543   290  6.21  0.2(secs) 1.945244e+06(cntProbe) 9.592075e+06(speed) 0(targetReached) 0(isCensored)
+GA( 0 - 42) iter:         1486   286  6.29  0.6(secs) 5.284647e+06(cntProbe) 9.590175e+06(speed) 0(targetReached) 0(isCensored)
+GA( 0 - 42) iter:         2338   274  6.57  0.9(secs) 8.387379e+06(cntProbe) 9.631532e+06(speed) 0(targetReached) 0(isCensored)
+GA( 0 - 42) iter:         7011   254  7.09  2.6(secs) 2.502063e+07(cntProbe) 9.639559e+06(speed) 0(targetReached) 0(isCensored)
+GA( 0 - 42) iter:        46448   234  7.69  17.2(secs) 1.659423e+08(cntProbe) 9.632014e+06(speed) 0(targetReached) 0(isCensored)
+GA( 0 - 42) iter:        80806   234  7.69  30.0(secs) 2.888773e+08(cntProbe) 9.629076e+06(speed) 0(targetReached) 1(isCensored)
+BEST:-+-+--+-+-+--++--+--+--+-+--++---+++-----+++-------+++++++++ 234 7.69

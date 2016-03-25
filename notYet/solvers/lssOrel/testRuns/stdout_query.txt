@@ -1,0 +1,36 @@
+$ ./lssOrel 
+Usage: ./lssOrel Lodd [options]
+
+Lodd                  ... odd number, denoting the length of the binary string
+
+Options:
+-runtimeLmt seconds   ... stop after this number of seconds; default = 300.
+                          (this can be overruled if cntProbeLmt below is enabled)
+-valueTarget energy   ... stop when this level of energy is reached;
+                          default = best known energy value.
+-laevus number        ... functionFactor as well as functionParameter.
+                          The laevus value represents the number of 0 bits at the left end
+                          of full binary string; default = 0.
+                          NOTE: since this solver runs under the assumption of skew-symmetry,
+                                the effective dimension of the search space is reduced to
+                                      nDim = (Lodd + 1)/2 - laevus
+                                which now controls the values of solver parameters.
+-walkSegmCoef val     ... solverFactor, a coefficient that controls walk segment length;
+                          default = 8 implies walk segment length value of 8*(Lodd + 1)/2 - laevus
+                          value   = U implies walk segment length value of 2^((Lodd + 1)/2 - laevus - 1)
+                              (2 GB memory is required when (Lodd + 1)/2 - laevus  = 53)
+-seed s1,s2,s3        ... three **short** integers separated by commas, to initialize
+                          the random number generator; default = 1,2,3.
+-coordInit bitString  ... initial binary string,
+                          default = a random binary string, determined by seed.
+-v                    ... turn on the verbose output.
+-help                 ... display this help and exit.
+------------------------------------------------------------------------------------------------
+Copyright 2014
+*  Borko Bošković, Franc Brglez, and Janez Brest
+*  Paper: Low-Autocorrelation Binary Sequences: on the Performance
+*         of Memetic-Tabu and Self-Avoiding Walk Solvers
+*  Solver: Self-Avoiding Walk
+*  arXiv:1406.5301 (http://arxiv.org/abs/1406.5301)
+*  Version 004
+*  Compile date Mar 24 2016

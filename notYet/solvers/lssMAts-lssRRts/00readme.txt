@@ -1,0 +1,50 @@
+Original source was modified by Borko.
+
+############################################## COMPILE ######################################################
+
+$ make clean
+$ make
+
+for random strategy:
+$ make STRATEGY=random
+
+for debug (trace option is added)
+$ make debug
+
+** Examples **
+$ make clean && make
+
+############################################################################################################
+
+$ bin/lssMAts
+
+usage: bin/lssMAts <binary seq length> <random seed> <max time (secs)> <no. of threads> <valueTarget>
+
+note1: The last argument is optional. If no <valueTarget> is specified,
+        the "best known value", stored internally, will be accessed.
+note2: This program stops either
+        if runtime   >= <max time (secs)> or
+        if valueBest <= <valueTarget>
+
+Copyright 2012
+*  José E. Gallardo, Carlos Cotta, and Antonio J. Fernández
+*  Finding Low Autocorrelation Binary Sequences with Memetic Algorithms.
+*  Applied Soft Computing. 9(4): 1252-1262 (2009).
+*  Modified by Borko.
+
+###############################################################################################################
+
+$ bin/lssRRts 
+usage: bin/lssRRts <binary seq length> <random seed> <max time (secs)> <no. of threads> <valueTarget>
+
+note1: The last argument is optional. If no <valueTarget> is specified,
+        the "best known value", stored internally, will be accessed.
+note2: This program stops either
+        if runtime   >= <max time (secs)> or
+        if valueBest <= <valueTarget>
+
+Copyright 2012
+*  José E. Gallardo, Carlos Cotta, and Antonio J. Fernández
+*  Finding Low Autocorrelation Binary Sequences with Memetic Algorithms.
+*  Applied Soft Computing. 9(4): 1252-1262 (2009).
+*  Modified by Borko.

@@ -1,0 +1,151 @@
+$ make clean && make debug
+$ ./lssOrel 17 -v -trace -seed 50
+#                     n=017-B-0_lssOrel_72-110101111-walk0.txt
+# -->>>------------------------------------------------------------------
+# date                Fri Mar 25 15:32:29 2016
+# functionName        labs
+# instanceDef         17
+# laevus              0
+# isSkew              1
+# solverName          lssOrel
+# coordinateType      B
+# nDim                9
+# valueTarget         32
+# meritTarget         4.5156
+# progName            lssOrel
+# progVersion         004
+# compile date        Mar 25 2016
+# args                17 -v -trace -seed 50 
+# system              x86_64 3.13.0-24-generic Linux
+# algorithm           Self-avoiding walk
+# runtimeLmt          300
+# walkSegmLmt         72
+# seed                50,2,3
+# coordInit           110101111
+# -->>>------------------------------------------------------------------
+# cntProbe     cntRestart   value  merit   runtime    speed        coord               
+walkLength=0 cntRestart=0 cntProbe=1 pivotInit=110101111:72
+        probe=2 flipped bit = 1, 010101111:192
+        probe=3 flipped bit = 2, 100101111:136
+        probe=4 flipped bit = 3, 111101111:48
+        probe=5 flipped bit = 4, 110001111:72
+        probe=6 flipped bit = 5, 110111111:80
+        probe=7 flipped bit = 6, 110100111:72
+        probe=8 flipped bit = 7, 110101011:64
+        probe=9 flipped bit = 8, 110101101:40
+        probe=10 flipped bit = 9, 110101110:72
+walkLength=1 cntRestart=0 cntProbe=10 bit=8 pivot=110101101:40 bestMoves 1
+        probe=11 flipped bit = 1, 010101101:96
+        probe=12 flipped bit = 2, 100101101:104
+        probe=13 flipped bit = 3, 111101101:48
+        probe=14 flipped bit = 4, 110001101:136
+        probe=15 flipped bit = 5, 110111101:48
+        probe=16 flipped bit = 6, 110100101:200
+        probe=17 flipped bit = 7, 110101001:64
+        probe=18 flipped bit = 9, 110101100:40
+walkLength=2 cntRestart=0 cntProbe=18 bit=9 pivot=110101100:40 bestMoves 1
+        probe=19 flipped bit = 1, 010101100:48
+        probe=20 flipped bit = 2, 100101100:168
+        probe=21 flipped bit = 3, 111101100:64
+        probe=22 flipped bit = 4, 110001100:168
+        probe=23 flipped bit = 5, 110111100:64
+        probe=24 flipped bit = 6, 110100100:104
+        probe=25 flipped bit = 7, 110101000:80
+        probe=26 flipped bit = 8, 110101110:72
+walkLength=3 cntRestart=0 cntProbe=26 bit=1 pivot=010101100:48 bestMoves 1
+        probe=27 flipped bit = 2, 000101100:48
+        probe=28 flipped bit = 3, 011101100:264
+        probe=29 flipped bit = 4, 010001100:240
+        probe=30 flipped bit = 5, 010111100:72
+        probe=31 flipped bit = 6, 010100100:48
+        probe=32 flipped bit = 7, 010101000:216
+        probe=33 flipped bit = 8, 010101110:80
+        probe=34 flipped bit = 9, 010101101:96
+walkLength=4 cntRestart=0 cntProbe=34 bit=2 pivot=000101100:48 bestMoves 2
+        probe=35 flipped bit = 1, 100101100:168
+        probe=36 flipped bit = 3, 001101100:200
+        probe=37 flipped bit = 4, 000001100:48
+        probe=38 flipped bit = 5, 000111100:104
+        probe=39 flipped bit = 6, 000100100:48
+        probe=40 flipped bit = 7, 000101000:184
+        probe=41 flipped bit = 8, 000101110:80
+        probe=42 flipped bit = 9, 000101101:96
+walkLength=5 cntRestart=0 cntProbe=42 bit=4 pivot=000001100:48 bestMoves 2
+        probe=43 flipped bit = 1, 100001100:104
+        probe=44 flipped bit = 2, 010001100:240
+        probe=45 flipped bit = 3, 001001100:296
+        probe=46 flipped bit = 5, 000011100:40
+        probe=47 flipped bit = 6, 000000100:80
+        probe=48 flipped bit = 7, 000001000:184
+        probe=49 flipped bit = 8, 000001110:48
+        probe=50 flipped bit = 9, 000001101:64
+walkLength=6 cntRestart=0 cntProbe=50 bit=5 pivot=000011100:40 bestMoves 1
+        probe=51 flipped bit = 1, 100011100:96
+        probe=52 flipped bit = 2, 010011100:136
+        probe=53 flipped bit = 3, 001011100:64
+        probe=54 flipped bit = 4, 000111100:104
+        probe=55 flipped bit = 6, 000010100:104
+        probe=56 flipped bit = 7, 000011000:48
+        probe=57 flipped bit = 8, 000011110:168
+        probe=58 flipped bit = 9, 000011101:40
+walkLength=7 cntRestart=0 cntProbe=58 bit=9 pivot=000011101:40 bestMoves 1
+        probe=59 flipped bit = 1, 100011101:48
+        probe=60 flipped bit = 2, 010011101:136
+        probe=61 flipped bit = 3, 001011101:48
+        probe=62 flipped bit = 4, 000111101:72
+        probe=63 flipped bit = 5, 000001101:64
+        probe=64 flipped bit = 6, 000010101:200
+        probe=65 flipped bit = 7, 000011001:96
+        probe=66 flipped bit = 8, 000011111:104
+walkLength=8 cntRestart=0 cntProbe=66 bit=3 pivot=001011101:48 bestMoves 2
+        probe=67 flipped bit = 1, 101011101:184
+        probe=68 flipped bit = 2, 011011101:144
+        probe=69 flipped bit = 4, 001111101:48
+        probe=70 flipped bit = 5, 001001101:104
+        probe=71 flipped bit = 6, 001010101:144
+        probe=72 flipped bit = 7, 001011001:104
+        probe=73 flipped bit = 8, 001011111:80
+        probe=74 flipped bit = 9, 001011100:64
+walkLength=9 cntRestart=0 cntProbe=74 bit=4 pivot=001111101:48 bestMoves 1
+        probe=75 flipped bit = 1, 101111101:184
+        probe=76 flipped bit = 2, 011111101:80
+        probe=77 flipped bit = 3, 000111101:72
+        probe=78 flipped bit = 5, 001101101:104
+        probe=79 flipped bit = 6, 001110101:48
+        probe=80 flipped bit = 7, 001111001:168
+        probe=81 flipped bit = 8, 001111111:48
+        probe=82 flipped bit = 9, 001111100:32
+walkLength=10 cntRestart=0 cntProbe=82 bit=9 pivot=001111100:32 bestMoves 1
+# 8.2000e+01   0.0000e+00   32     4.5156  0.00       6.721311e+04 001111100
+# 8.200000e+01 0.000000e+00 32     4.5156  0.00       6.507937e+04 001111100
+walkLength=0 cntRestart=4294967295 cntProbe=82 pivot=001111100:32       # PIVOT (TARGET) **END**
+# -->>>------------------------------------------------------------------
+# date                Fri Mar 25 15:32:29 2016
+# args                17 -v -trace -seed 50 
+# version             004
+# compile date        Mar 25 2016
+# system              x86_64 3.13.0-24-generic Linux
+# algorithm           Self-avoiding walk
+instanceDef           17
+nDim                  9
+progName              lssOrel
+progVersion           004
+meritTarget           4.5156
+valueTarget           32
+valueBest             32
+meritBest             4.5156
+targetReached         1
+isCensored            0
+runtimeLmt            300
+runtime               0.00
+cntProbe              82
+cntRestart            0
+walkLength            10
+speed                 63565
+functionParameters    0
+walkSegmCoef          8.00
+seedFirst             50,2,3
+coordInit             110101111
+coordInitFull         11010111101000001
+coordBest             001111100
+coordBestFull         00111110011010110

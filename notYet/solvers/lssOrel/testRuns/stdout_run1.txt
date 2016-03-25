@@ -1,0 +1,59 @@
+./lssOrel 49 -v
+#                     n=049-B-0_lssOrel_200-0111110001001111100011000-walk0.txt
+# -->>>------------------------------------------------------------------
+# date                Fri Mar 25 15:31:23 2016
+# functionName        labs
+# instanceDef         49
+# laevus              0
+# isSkew              1
+# solverName          lssOrel
+# coordinateType      B
+# nDim                25
+# valueTarget         136
+# meritTarget         8.8272
+# progName            lssOrel
+# progVersion         004
+# compile date        Mar 24 2016
+# args                49 -v 
+# system              x86_64 3.13.0-24-generic Linux
+# algorithm           Self-avoiding walk
+# runtimeLmt          300
+# walkSegmLmt         200
+# seed                1,2,3
+# coordInit           0111110001001111100011000
+# -->>>------------------------------------------------------------------
+# cntProbe     cntRestart   value  merit   runtime    speed        coord               
+# 1.0000e+00   0.0000e+00   664    1.8080  0.00       6.849315e+03 0111110001001111100011000
+# 4.802000e+03 0.000000e+00 144    8.3368  0.00       1.212626e+07 1010100100101011001101000
+# 7.512800e+04 1.500000e+01 136    8.8272  0.00       2.395663e+07 0001110001111111000100011
+# 7.512800e+04 1.500000e+01 136    8.8272  0.00       2.391850e+07 0001110001111111000100011
+# -->>>------------------------------------------------------------------
+# date                Fri Mar 25 15:31:23 2016
+# args                49 -v 
+# version             004
+# compile date        Mar 24 2016
+# system              x86_64 3.13.0-24-generic Linux
+# algorithm           Self-avoiding walk
+instanceDef           49
+nDim                  25
+progName              lssOrel
+progVersion           004
+meritTarget           8.8272
+valueTarget           136
+valueBest             136
+meritBest             8.8272
+targetReached         1
+isCensored            0
+runtimeLmt            300
+runtime               0.00
+cntProbe              75128
+cntRestart            15
+walkLength            3144
+speed                 23880483
+functionParameters    0
+walkSegmCoef          8.00
+seedFirst             1,2,3
+coordInit             0111110001001111100011000
+coordInitFull         0111110001001111100011000100110110101100010010100
+coordBest             0001110001111111000100011
+coordBestFull         0001110001111111000100011001000100101010010010010

@@ -1,0 +1,41 @@
+$ make clean && make debug
+$ ./lssOrel 17 -v -walk -seed 50
+#                     n=017-B-0_lssOrel_72-110101111-walk0.txt
+# -->>>------------------------------------------------------------------
+# date                Fri Mar 25 15:34:15 2016
+# functionName        labs
+# instanceDef         17
+# laevus              0
+# isSkew              1
+# solverName          lssOrel
+# coordinateType      B
+# nDim                9
+# valueTarget         32
+# meritTarget         4.5156
+# progName            lssOrel
+# progVersion         004
+# compile date        Mar 25 2016
+# args                17 -v -walk -seed 50 
+# system              x86_64 3.13.0-24-generic Linux
+# algorithm           Self-avoiding walk
+# runtimeLmt          300
+# walkSegmLmt         72
+# seed                50,2,3
+# coordInit           110101111
+# -->>>------------------------------------------------------------------
+step    chain   coord   value   comment
+# cntProbe     cntRestart   value  merit   runtime    speed        coord               
+0       0       110101111       72      #
+1       0       110101101       40      #
+2       0       110101100       40      #
+3       0       010101100       48      #
+4       0       000101100       48      #
+5       0       000001100       48      #
+6       0       000011100       40      #
+7       0       000011101       40      #
+8       0       001011101       48      #
+9       0       001111101       48      #
+10      0       001111100       32      # targetReached 1 cntProbe 82
+# 8.2000e+01   0.0000e+00   32     4.5156  0.00       2.081218e+05 001111100
+# 8.200000e+01 0.000000e+00 32     4.5156  0.00       2.014742e+05 001111100
+11      1       001111100       32      # PIVOT (TARGET) **END**

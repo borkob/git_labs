@@ -1,0 +1,11 @@
+$ ./lRRts 28 42 300 1
+
+LABS 28 (opt=50,7.84), seed=42, maxExecTime=300.0(secs), threads=1
+GA( 0 - 42) iter:            0   170  2.31  0.0(secs) 1.000000e+02(cntProbe) 8.547009e+05(speed) 0(targetReached) 0(isCensored)
+GA( 0 - 42) iter:           12    94  4.17  0.0(secs) 1.019300e+04(cntProbe) 1.379296e+07(speed) 0(targetReached) 0(isCensored)
+GA( 0 - 42) iter:           16    74  5.30  0.0(secs) 1.282900e+04(cntProbe) 1.399019e+07(speed) 0(targetReached) 0(isCensored)
+GA( 0 - 42) iter:           47    66  5.94  0.0(secs) 3.682800e+04(cntProbe) 1.650000e+07(speed) 0(targetReached) 0(isCensored)
+GA( 0 - 42) iter:          109    62  6.32  0.0(secs) 8.230600e+04(cntProbe) 1.663420e+07(speed) 0(targetReached) 0(isCensored)
+GA( 0 - 42) iter:          374    50  7.84  0.0(secs) 2.822950e+05(cntProbe) 1.690389e+07(speed) 0(targetReached) 0(isCensored)
+GA( 0 - 42) iter:          375    50  7.84  0.0(secs) 2.822950e+05(cntProbe) 1.684438e+07(speed) 1(targetReached) 0(isCensored)
+BEST:+++----+++-+++-+++-++-+--+-- 50 7.84

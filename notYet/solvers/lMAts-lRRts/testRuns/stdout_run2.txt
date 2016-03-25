@@ -1,0 +1,11 @@
+$ ./lMAts 28 42 300 1                                                                                                                             
+                                                                                                                                                                                                                   
+LABS 28 (opt=50,7.84), seed=42, maxExecTime=300.0(secs), threads=1                                                                                                                                                 
+GA( 0 - 42) iter:            0   170  2.31  0.0(secs) 1.000000e+02(cntProbe) 9.523810e+05(speed) 0(targetReached) 0(isCensored)                                                                                    
+GA( 0 - 42) iter:           26    90  4.36  0.0(secs) 2.059500e+04(cntProbe) 2.063627e+07(speed) 0(targetReached) 0(isCensored)                                                                                    
+GA( 0 - 42) iter:           29    86  4.56  0.0(secs) 2.297800e+04(cntProbe) 2.083228e+07(speed) 0(targetReached) 0(isCensored)                                                                                    
+GA( 0 - 42) iter:           32    74  5.30  0.0(secs) 2.499700e+04(cntProbe) 2.095306e+07(speed) 0(targetReached) 0(isCensored)                                                                                    
+GA( 0 - 42) iter:           58    62  6.32  0.0(secs) 4.283100e+04(cntProbe) 1.981082e+07(speed) 0(targetReached) 0(isCensored)                                                                                    
+GA( 0 - 42) iter:           81    50  7.84  0.0(secs) 6.035400e+04(cntProbe) 1.922714e+07(speed) 0(targetReached) 0(isCensored)
+GA( 0 - 42) iter:           82    50  7.84  0.0(secs) 6.035400e+04(cntProbe) 1.904512e+07(speed) 1(targetReached) 0(isCensored)
+BEST:---++++---+---+---+--+-++-++ 50 7.84
