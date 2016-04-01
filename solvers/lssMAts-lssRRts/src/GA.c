@@ -371,7 +371,8 @@ int main(int argc, char *args[]) {
         printf("*  José E. Gallardo, Carlos Cotta, and Antonio J. Fernández\n");
         printf("*  Finding Low Autocorrelation Binary Sequences with Memetic Algorithms.\n");
         printf("*  Applied Soft Computing. 9(4): 1252-1262 (2009).\n");
-        printf("*  Modified by Borko.\n");
+	printf("*  ---------------------------------------------------------------------\n");
+	printf("*  Original source code was modified /instrumented for testing by Borko Boskovic.\n");
         exit(1);
     }
 

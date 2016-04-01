@@ -28,9 +28,10 @@ Options:
 ------------------------------------------------------------------------------------------------
 Copyright 2014
 *  Borko Bošković, Franc Brglez, and Janez Brest
-*  Paper: Low-Autocorrelation Binary Sequences: on the Performance
-*         of Memetic-Tabu and Self-Avoiding Walk Solvers
+*  Paper: Low-Autocorrelation Binary Sequences: On Improved
+*    Merit Factors and Runtime Predictions to Achieve Them
 *  Solver: Self-Avoiding Walk
 *  arXiv:1406.5301 (http://arxiv.org/abs/1406.5301)
 *  Version 004
-*  Compile date Mar 24 2016
+*  Compile date Apr  1 2016
+

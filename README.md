@@ -1,4 +1,8 @@
 This is a GitHub archive for solvers and solutions of the low autocorrelation binary sequence (labs) problem. 
+It represents a testbed for conducting rigorous, transparent, and replicable/reproducible performance testing of
+labs solvers. Maintained by Borko Bošković, Faculty of Electrical Engineering and Computer Science,
+University of Maribor.
+
 The minimization of the autocorrelation (energy) function, or equivalently the maximization of the binary 
 sequence merit factor, has important applications in communication engineering. To physicists, the optimum
 solution of the labs problem corresponds to the ground state of a generalized one-dimensional Ising spin system
@@ -30,7 +34,3 @@ is based on this paper:
 	Year = {2016}
 }
 
-***************************   WARNING  ********************************
-Contents of this archive are still subject to testing and verification.
-Please, do not download any contents until this notice is removed.
-***********************************************************************

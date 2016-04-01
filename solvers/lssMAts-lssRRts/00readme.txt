@@ -1,18 +1,13 @@
-Original source was modified by Borko.
-
 ############################################## COMPILE ######################################################
 
 $ make clean
 $ make
 
-for random strategy:
+# for random strategy:
 $ make STRATEGY=random
 
-for debug (trace option is added)
+# for debuging (trace option is added)
 $ make debug
-
-** Examples **
-$ make clean && make
 
 ############################################################################################################
 
@@ -30,7 +25,8 @@ Copyright 2012
 *  José E. Gallardo, Carlos Cotta, and Antonio J. Fernández
 *  Finding Low Autocorrelation Binary Sequences with Memetic Algorithms.
 *  Applied Soft Computing. 9(4): 1252-1262 (2009).
-*  Modified by Borko.
+*  ---------------------------------------------------------------------
+*  Original source code was modified /instrumented for testing by Borko Boskovic.
 
 ###############################################################################################################
 
@@ -47,4 +43,5 @@ Copyright 2012
 *  José E. Gallardo, Carlos Cotta, and Antonio J. Fernández
 *  Finding Low Autocorrelation Binary Sequences with Memetic Algorithms.
 *  Applied Soft Computing. 9(4): 1252-1262 (2009).
-*  Modified by Borko.
+*  ---------------------------------------------------------------------
+*  Original source code was modified /instrumented for testing by Borko Boskovic.

@@ -101,8 +101,8 @@ void help(const char argv[]){
     cout<<"------------------------------------------------------------------------------------------------"<<endl;
     cout<<"Copyright 2014"<<endl;
     cout<<"*  Borko Bošković, Franc Brglez, and Janez Brest"<<endl;
-    cout<<"*  Paper: Low-Autocorrelation Binary Sequences: on the Performance"<<endl;
-    cout<<"*         of Memetic-Tabu and Self-Avoiding Walk Solvers"<<endl;
+    cout<<"*  Paper: Low-Autocorrelation Binary Sequences: On Improved"<<endl;
+    cout<<"*    Merit Factors and Runtime Predictions to Achieve Them"<<endl;
     cout<<"*  Solver: Self-Avoiding Walk"<<endl;
     cout<<"*  arXiv:1406.5301 (http://arxiv.org/abs/1406.5301)"<<endl;
     cout<<"*  Version "<<VERSION<<endl;
