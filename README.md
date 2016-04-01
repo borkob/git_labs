@@ -16,7 +16,7 @@ that continues to be solved under massively parallel computation for the past fe
 
 Please use this citation when referring to this archive:
 
-B. Boišković, F. Brglez and J. Brest, **A GitHub Archive for Solvers and Solutions of the labs problem**, 2016
+B. Bošković, F. Brglez and J. Brest, **A GitHub Archive for Solvers and Solutions of the labs problem**, 2016
 
 
 @misc{OPUS2-git_labs-Boskovic,
@@ -37,7 +37,7 @@ The organization of this archive, including the open-source state-of-the-art sol
 is based on this paper:
 
 
-B. Boišković, F. Brglez and J. Brest, **Low-Autocorrelation Binary Sequences: On Improved Merit Factors and Runtime Predictions to Achieve Them**, http://arxiv.org/abs/1406.5301, under review
+B. Bošković, F. Brglez and J. Brest, **Low-Autocorrelation Binary Sequences: On Improved Merit Factors and Runtime Predictions to Achieve Them**, http://arxiv.org/abs/1406.5301, under review
 
 @article{OPUS2-labs-2016-arxiv-Boskovic,
 
