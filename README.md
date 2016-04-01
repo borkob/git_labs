@@ -12,7 +12,7 @@ with limited interaction and periodic boundary conditions.
 
 In fact, the runtime asymptotic complexity of the labs problem is much harder than the Optimal Golomb Ruler problem
 that continues to be solved under massively parallel computation for the past few decades 
-(see http://en.wikipedia.org/wiki/ Golomb_ruler and http://www.distributed.net/OGR).
+(see http://en.wikipedia.org/wiki/Golomb_ruler and http://www.distributed.net/OGR).
 
 Please use this citation when referring to this archive:
 
