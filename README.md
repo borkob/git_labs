@@ -15,7 +15,7 @@ Please use this citation when referring to this archive:
 
 B. Bošković, F. Brglez and J. Brest, **A GitHub Archive for Solvers and Solutions of the labs problem**, 2016
 
-
+```
 @misc{OPUS2-git_labs-Boskovic,
 
 	Author = {B. Bo\v{s}kovi\'{c} and F. Brglez and J. Brest},
@@ -29,13 +29,13 @@ B. Bošković, F. Brglez and J. Brest, **A GitHub Archive for Solvers and Soluti
 	Year = {2016}
 
 }
-
+```
 The organization of this archive, including the open-source state-of-the-art solvers and summaries of experimental results,
 is based on this paper:
 
 
 B. Bošković, F. Brglez and J. Brest, **Low-Autocorrelation Binary Sequences: On Improved Merit Factors and Runtime Predictions to Achieve Them**, http://arxiv.org/abs/1406.5301, under review
-
+```
 @article{OPUS2-labs-2016-arxiv-Boskovic,
 
 	Author = {B. Bo\v{s}kovi\'{c} and F. Brglez and J. Brest},
@@ -47,4 +47,4 @@ B. Bošković, F. Brglez and J. Brest, **Low-Autocorrelation Binary Sequences: O
 	Year = {2016}
 
 }
-
+```
