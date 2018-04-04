@@ -7,9 +7,9 @@ with limited interaction and periodic boundary conditions.
 
 In fact, the runtime asymptotic complexity of the labs problem is much harder than the Optimal Golomb Ruler problem
 that continues to be solved under massively parallel computation for the past few decades 
-(see http://en.wikipedia.org/wiki/Golomb_ruler and http://www.distributed.net/OGR).
+(see [Golomb_ruler](http://en.wikipedia.org/wiki/Golomb_ruler) and [OGR](http://www.distributed.net/OGR)).
 
-A crowd-sourcing server prototype to facilitate experimentation and push the frontiers on finding new **best-known values** (BKVs), for the labs problem is under construction. Researchers will be able to download the labs solver lssOrelE with the data set and simply **run the solver on their host** in the browser. Upon finding the solution (or a breakthrough value that improves the current **BKV**), the browser will return solution details to the server and start a new run on the local host either with the current or the new **BKV**. For an interactive labs puzzle and the timeline of the crowd-sourcing server prototype availability see http://labraj.feri.um.si/en/B.labs.
+A crowd-sourcing server prototype to facilitate experimentation and push the frontiers on finding new **best-known values** (BKVs), for the labs problem is under construction. Researchers will be able to download the labs solver lssOrelE with the data set and simply **run the solver on their host** in the browser. Upon finding the solution (or a breakthrough value that improves the current **BKV**), the browser will return solution details to the server and start a new run on the local host either with the current or the new **BKV**. For an interactive labs puzzle and the timeline of the crowd-sourcing server prototype availability see [B.labs](http://labraj.feri.um.si/en/B.labs).
 
 Please use this citation when referring to this archive:
 
@@ -34,7 +34,7 @@ The organization of this archive, including the open-source state-of-the-art sol
 is based on this paper:
 
 
-B. Bošković, F. Brglez and J. Brest, **Low-Autocorrelation Binary Sequences: On Improved Merit Factors and Runtime Predictions to Achieve Them**, http://arxiv.org/abs/1406.5301, under review
+B. Bošković, F. Brglez and J. Brest, **Low-Autocorrelation Binary Sequences: On Improved Merit Factors and Runtime Predictions to Achieve Them**, [arxiv](http://arxiv.org/abs/1406.5301), under review
 ```
 @article{OPUS2-labs-2016-arxiv-Boskovic,
 
